@@ -1,0 +1,8 @@
+void main(void)
+{
+	int a;
+	void b;
+	a = 9;
+	b = a;
+	return ;
+}

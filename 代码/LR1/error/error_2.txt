@@ -1,0 +1,7 @@
+void main(void)
+{
+	int a;
+	a = 9;
+	int a;
+	return ;
+}

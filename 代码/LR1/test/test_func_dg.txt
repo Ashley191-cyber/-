@@ -1,0 +1,24 @@
+int test(int n)
+{
+	if(n==1)
+	{		
+	    return 1;
+	}
+	else
+	{
+        int c;
+        int d;
+        d=n-1;
+        c= n*test(d);
+        return c;
+	}
+}
+int main()
+{
+	int n;
+	int sum;
+	n=5;
+	sum=test(n);
+	return 0;
+
+}
